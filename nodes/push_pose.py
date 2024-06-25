@@ -9,7 +9,7 @@ import random
 import json
 
 # enviorment variables
-env=json.load(open("{}\\ComfyUI\\custom_nodes\\ComfyUI-Airtable\\env.json".format(os.getcwd())))
+env=json.load(open("{}/ComfyUI/custom_nodes/ComfyUI-Airtable/env.json".format(os.getcwd())))
 CREDENTIALS=env['CREDENTIALS']
 CONFIG=env['CONFIG']
 
