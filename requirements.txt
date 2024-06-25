@@ -1,0 +1,4 @@
+requests
+cloudinary
+io
+PIL
